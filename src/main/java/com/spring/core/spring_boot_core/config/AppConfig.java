@@ -3,8 +3,10 @@ package com.spring.core.spring_boot_core.config;
 import com.spring.core.spring_boot_core.comp.Student;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.ImportResource;
 
 @Configuration
+@ImportResource("classpath:config.xml")
 public class AppConfig {
 
     /// creating second Bean

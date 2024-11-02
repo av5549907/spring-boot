@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 public class Father {
     private Student student;
 
-    public Father(@Qualifier("student1") Student student) {
+    public Father(@Qualifier("student4") Student student) {
         this.student = student;
     }
 
